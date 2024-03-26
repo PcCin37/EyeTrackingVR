@@ -55,6 +55,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\FollowView.cs" />
+     <Compile Include="Assets\Scripts\LiveImgController.cs" />
+     <Compile Include="Assets\Scripts\LiveTextController.cs" />
+     <Compile Include="Assets\Scripts\ModelRotate.cs" />
+     <Compile Include="Assets\Scripts\MouseController.cs" />
+     <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\MuseumImgController.cs" />
+     <Compile Include="Assets\Scripts\MuseumTextController.cs" />
+     <Compile Include="Assets\Scripts\ObjectController.cs" />
+     <Compile Include="Assets\Scripts\PanelAnimation.cs" />
+     <Compile Include="Assets\Scripts\TextController.cs" />
+     <Compile Include="Assets\Scripts\ThreeDayImgController.cs" />
+     <Compile Include="Assets\Scripts\ThreeDayTextController.cs" />
+     <Compile Include="Assets\Scripts\VideoController.cs" />
+     <Compile Include="Assets\Scripts\ViewController.cs" />
+     <Compile Include="Assets\Scripts\WeatherBackground.cs" />
+     <Compile Include="Assets\Scripts\WeatherImgController.cs" />
+     <Compile Include="Assets\Scripts\newTxtCrtl.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
