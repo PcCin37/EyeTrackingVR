@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Idle MoCap\DemoScene\idle_mocap_follow_player.cs" />
      <Compile Include="Assets\Scripts\FollowView.cs" />
      <Compile Include="Assets\Scripts\LiveImgController.cs" />
      <Compile Include="Assets\Scripts\LiveTextController.cs" />
@@ -135,6 +136,7 @@
      <None Include="Assets\MixedRealityToolkit.Services\License.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\MixedRealityToolkit.Extensions\License.txt" />
+     <None Include="Assets\Idle MoCap\Idle Package Description.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
  <Reference Include="UnityEngine">

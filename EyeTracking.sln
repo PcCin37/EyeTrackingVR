@@ -21,9 +21,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Tool
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality", "Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.csproj", "{74E9BFD4-9513-1295-9C27-FC49E2347C56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Services.InputSimulation", "Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj", "{49095270-7B28-97DF-4334-B9680828686E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{564C486C-C04F-7AD5-7B26-B9758913D35C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Services.InputSimulation", "Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj", "{49095270-7B28-97DF-4334-B9680828686E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Providers.UnityAR", "Microsoft.MixedReality.Toolkit.Providers.UnityAR.csproj", "{BDCE1867-E95F-DC25-29A7-345B1B9ADB6A}"
 EndProject
@@ -149,14 +149,14 @@ Global
 		{74E9BFD4-9513-1295-9C27-FC49E2347C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E9BFD4-9513-1295-9C27-FC49E2347C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E9BFD4-9513-1295-9C27-FC49E2347C56}.Release|Any CPU.Build.0 = Release|Any CPU
-		{49095270-7B28-97DF-4334-B9680828686E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49095270-7B28-97DF-4334-B9680828686E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49095270-7B28-97DF-4334-B9680828686E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49095270-7B28-97DF-4334-B9680828686E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{564C486C-C04F-7AD5-7B26-B9758913D35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{564C486C-C04F-7AD5-7B26-B9758913D35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{564C486C-C04F-7AD5-7B26-B9758913D35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{564C486C-C04F-7AD5-7B26-B9758913D35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49095270-7B28-97DF-4334-B9680828686E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49095270-7B28-97DF-4334-B9680828686E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49095270-7B28-97DF-4334-B9680828686E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49095270-7B28-97DF-4334-B9680828686E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BDCE1867-E95F-DC25-29A7-345B1B9ADB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BDCE1867-E95F-DC25-29A7-345B1B9ADB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDCE1867-E95F-DC25-29A7-345B1B9ADB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
