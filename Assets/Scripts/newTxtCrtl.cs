@@ -35,6 +35,8 @@ public class newTxtCrtl : MonoBehaviour
 
     void Start()
     {
+        string chineseWeekday = "星期二";
+        Debug.Log(WeekdayConverter.ConvertToEnglish(chineseWeekday));
         StartCoroutine(GetData());
     }
 
@@ -42,32 +44,33 @@ public class newTxtCrtl : MonoBehaviour
     void Update()
     {
         firstDate.text = DateFormatConverter.ConvertDate(Temperature.data.forecast[0].ymd);
-        firstDay.text = Temperature.data.forecast[0].week;
-        firstWeather.text = Temperature.data.forecast[0].type;
+        firstDay.text = WeekdayConverter.ConvertToEnglish(Temperature.data.forecast[0].week);
+        firstWeather.text = WeekdayConverter.ConvertToEnglish(Temperature.data.forecast[0].type);
         firstHighest.text = ExtractTemperature(Temperature.data.forecast[0].high);
 
 
         secondDate.text = DateFormatConverter.ConvertDate(Temperature.data.forecast[1].ymd);
-        secondDay.text = Temperature.data.forecast[1].week;
-        secondWeather.text = Temperature.data.forecast[1].type;
+        secondDay.text = WeekdayConverter.ConvertToEnglish(Temperature.data.forecast[1].week);
+        secondWeather.text = WeekdayConverter.ConvertToEnglish(Temperature.data.forecast[1].type);
         secondHighest.text = ExtractTemperature(Temperature.data.forecast[1].high);
 
 
         thirdDate.text = DateFormatConverter.ConvertDate(Temperature.data.forecast[2].ymd);
-        thirdDay.text = Temperature.data.forecast[2].week;
-        thirdWeather.text = Temperature.data.forecast[2].type;
+        thirdDay.text = WeekdayConverter.ConvertToEnglish(Temperature.data.forecast[2].week);
+        thirdWeather.text = WeekdayConverter.ConvertToEnglish(Temperature.data.forecast[2].type);
         thirdHighest.text = ExtractTemperature(Temperature.data.forecast[2].high);
 
         forthDate.text = DateFormatConverter.ConvertDate(Temperature.data.forecast[3].ymd);
-        forthDay.text = Temperature.data.forecast[3].week;
-        forthWeather.text = Temperature.data.forecast[3].type;
+        forthDay.text = WeekdayConverter.ConvertToEnglish(Temperature.data.forecast[3].week);
+        forthWeather.text = WeekdayConverter.ConvertToEnglish(Temperature.data.forecast[3].type);
         forthHighest.text = ExtractTemperature(Temperature.data.forecast[3].high);
 
         fifthDate.text = DateFormatConverter.ConvertDate(Temperature.data.forecast[4].ymd);
-        fifthDay.text = Temperature.data.forecast[4].week;
-        fifthWeather.text = Temperature.data.forecast[4].type;
+        fifthDay.text = WeekdayConverter.ConvertToEnglish(Temperature.data.forecast[4].week);
+        fifthWeather.text = WeekdayConverter.ConvertToEnglish(Temperature.data.forecast[4].type);
         fifthHighest.text = ExtractTemperature(Temperature.data.forecast[4].high);
 
+        
     }
 
     private IEnumerator GetData()
