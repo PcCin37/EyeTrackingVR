@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MixedRealityToolkit.Examples/Demos/EyeTracking/Scenes/03-firstDay.unity
+- path: Assets/MixedRealityToolkit.Examples/Demos/EyeTracking/Scenes/00-RootScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
